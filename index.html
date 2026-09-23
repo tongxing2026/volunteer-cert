@@ -169,7 +169,7 @@ footer{background:var(--card);border-top:1px solid var(--line);margin-top:40px}
           <button class="btn-primary" id="dlJpg" type="button">下载证书（JPG）</button>
           <button class="btn-ghost" id="dlPng" type="button">下载无损版（PNG）</button>
         </div>
-        <p class="note">点击下载后保存图片，可自行打印或冲印。</p>
+        <p class="note">点击下载后保存图片。</p>
       </div>
       <div class="notfound hidden" id="notFound"></div>
     </div>
@@ -197,7 +197,6 @@ footer{background:var(--card);border-top:1px solid var(--line);margin-top:40px}
   <div class="foot-inner">
     <p class="org">深圳市同行公益基金会 · 同行助学项目组</p>
     <p id="footData"></p>
-    <button class="link-btn" id="importBtn" type="button">导入新名单（Excel）更新数据</button>
     <button class="link-btn hidden" id="resetBtn" type="button">恢复官方名单</button>
     <input type="file" id="fileInput" accept=".xlsx,.xls,.csv" hidden>
   </div>
@@ -206,7 +205,7 @@ footer{background:var(--card);border-top:1px solid var(--line);margin-top:40px}
 <div class="toast" id="toast" role="status"></div>
 
 <script>
-/* ===== 数据（来自基金会第十期志愿证书数据表，可在页面底部导入新名单替换）===== */
+/* ===== 数据（来自基金会第十期志愿证书数据表）===== */
 var VOLUNTEERS = [
 ["曾纪翰",7.126666666],
 ["常姝婷",0.176666666],
